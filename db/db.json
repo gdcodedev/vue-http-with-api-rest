@@ -2,12 +2,12 @@
   "tarefas": [
     {
       "titulo": "Aprender HTML",
-      "concluido": false,
+      "concluido": true,
       "id": 1
     },
     {
       "titulo": "Aprender CSS",
-      "concluido": false,
+      "concluido": true,
       "id": 2
     },
     {
@@ -17,17 +17,17 @@
     },
     {
       "titulo": "Aprender Vuejs",
-      "concluido": true,
+      "concluido": false,
       "id": 4
     },
     {
       "titulo": "Aprender Vuex",
-      "concluido": true,
+      "concluido": false,
       "id": 5
     },
     {
       "titulo": "Aprender Vuetify",
-      "concluido": true,
+      "concluido": false,
       "id": 6
     }
   ]
