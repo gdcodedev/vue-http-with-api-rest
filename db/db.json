@@ -3,32 +3,38 @@
     {
       "titulo": "Aprender HTML",
       "concluido": true,
-      "id": 1
+      "id": 1,
+      "curso": "Vue JS"
     },
     {
       "titulo": "Aprender CSS",
       "concluido": true,
-      "id": 2
+      "id": 2,
+      "curso": "Vue JS"
     },
     {
       "titulo": "Aprender JavaScript",
-      "concluido": false,
-      "id": 3
+      "concluido": true,
+      "id": 3,
+      "curso": "Vue JS"
     },
     {
       "titulo": "Aprender Vuejs",
       "concluido": false,
-      "id": 4
+      "id": 4,
+      "curso": "Vue JS"
     },
     {
       "titulo": "Aprender Vuex",
-      "concluido": false,
-      "id": 5
+      "concluido": true,
+      "id": 5,
+      "curso": "Vue JS"
     },
     {
       "titulo": "Aprender Vuetify",
       "concluido": false,
-      "id": 6
+      "id": 6,
+      "curso": "Vue JS"
     }
   ]
 }
