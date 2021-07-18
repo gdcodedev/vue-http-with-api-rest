@@ -31,14 +31,24 @@ export default {
 
     // Requisições simultâneas 
     created(){
-      axios.all([
+    /*  axios.all([
         axios.get(`${config.apiURL}/tarefas/1`),
         axios.get(`${config.apiURL}/tarefas/3`)
       ]).then(axios.spread((tarefa1, tarefa3) => {
         console.log('Requisições simultâneas:')
         console.log('Tarefa 1: ', tarefa1)
         console.log('Tarefa 3: ', tarefa3)
-      }))
+      }))*/
+
+      //Requisições simultâneas sem o operador Spread
+      axios.all([
+        axios.get(`${config.apiURL}/tarefas/1`),
+        axios.get(`${config.apiURL}/tarefas/3`)
+      ]).then(response => {
+        const [tarefa1,  tarefa3] = response
+        console.log('Tarefa 1: ', tarefa1)
+        console.log('Tarefa 3: ', tarefa3)
+      })
     }
 }
 </script>
