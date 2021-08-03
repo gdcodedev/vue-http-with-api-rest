@@ -8,13 +8,13 @@
     },
     {
       "titulo": "Aprender JavaScript",
-      "concluido": true,
+      "concluido": false,
       "id": 3,
       "curso": "Vue JS"
     },
     {
       "titulo": "Aprender Vuejs",
-      "concluido": false,
+      "concluido": true,
       "id": 4,
       "curso": "Vue JS"
     },
@@ -35,6 +35,18 @@
       "concluido": true,
       "curso": "Vue JS",
       "id": 7
+    },
+    {
+      "titulo": "Aprender CSS",
+      "concluido": false,
+      "curso": "Vue JS",
+      "id": 8
+    },
+    {
+      "titulo": "Aprender HTML5",
+      "concluido": true,
+      "curso": "Vue JS",
+      "id": 9
     }
   ]
 }
